@@ -27,7 +27,7 @@ Inside the VM home directory (`/home/vagrant`), I created a custom folder struct
 
 ### **Manage File Permissions and Ownership**
 
-**Screenshot #3: File permission change**
+**Screenshot #3a: File permission change**
 ![image](https://github.com/user-attachments/assets/e604c447-4a82-4e9f-8bf2-eb107c59a06f)
 
 **Description:**
@@ -35,7 +35,7 @@ I created a file named `hello.txt` and initially confirmed that the file was own
 * I then used `chmod 000 hello.txt` to remove all permissions, which resulted in a "Permission denied" error when trying to read or execute the file.
 * Using `chmod 700 hello.txt`, I restored full permissions for the owner (`rwx------`), allowing me to read the file again.
 
-**Screenshot #4: File ownership change**
+**Screenshot #3b: File ownership change**
 ![image](https://github.com/user-attachments/assets/85034d63-e4c1-4379-b672-61182eabbcb6)
 
 **Description:**
@@ -52,7 +52,7 @@ This exercise demonstrates how `chmod` and `chown` control file access by adjust
 
 ### **Install and Configure a Package**
 
-**Screenshot #5: Package installation and version check**
+**Screenshot #4: Package installation and version check**
 
 ![image](https://github.com/user-attachments/assets/15a7c022-9062-4f5d-b1db-4a874552f000)
 
@@ -64,7 +64,7 @@ I installed the `curl` utility using Alpine’s package manager with the command
 
 ### **Test Remote Connectivity**
 
-**Screenshot #6: Ping result**
+**Screenshot #5: Ping result**
 ![ping](https://github.com/user-attachments/assets/46e8f8c4-af72-479c-bbff-6e6711640d34)
 
 **Description:**

@@ -62,7 +62,7 @@ I installed the `curl` utility using Alpine’s package manager with the command
 ---
 
 
-### **6. Test Remote Connectivity**
+### **Test Remote Connectivity**
 
 **Screenshot #6: Ping result**
 ![ping](https://github.com/user-attachments/assets/46e8f8c4-af72-479c-bbff-6e6711640d34)
